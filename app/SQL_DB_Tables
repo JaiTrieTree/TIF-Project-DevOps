@@ -1,0 +1,24 @@
+CREATE DATABASE teluguitfactorydb;
+CREATE USER 'teluguitfactory'@'localhost' IDENTIFIED BY 'teluguitfactory';
+GRANT ALL PRIVILEGES ON teluguitfactorydb.* TO 'teluguitfactory'@'localhost';
+FLUSH PRIVILEGES;
+EXIT;
+
+
+USE teluguitfactorydb;
+
+CREATE TABLE courses (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  title VARCHAR(255) NOT NULL,
+  description TEXT NOT NULL,
+  instructor VARCHAR(255) NOT NULL,
+  price FLOAT NOT NULL
+);
+
+INSERT INTO courses (title, description, instructor, price) VALUES
+('DevOps Master Program', 'Description for DevOps Master Program', 'Jai', 120.99),
+('Kubernetes Guru', 'Description for Kubernetes Guru', 'Jai', 79.99),
+('Terraform Guru', 'Description for Terraform Guru', 'Jai', 49.99);
+
+EXIT;
+

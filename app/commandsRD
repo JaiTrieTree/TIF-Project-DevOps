@@ -1,0 +1,124 @@
+sudo apt-get update
+sudo apt-get install mysql-server
+
+sudo apt-get install python3 python3-pip python3-venv
+
+
+ 1  apt update -y
+    2  apt upgrade -y
+    3  apt update -y
+    4  curl http://169.254.169.254/latest/meta-data/instance-id; echo
+    5  sudo apt-get update
+    6  sudo apt-get install mysql-server
+    7  sudo apt-get install python3 python3-pip python3-venv
+    8  python3 -m venv venv
+    9  source venv/bin/activate
+   10  vi requirements.txt
+   11  apt install vim
+   12  pip install -r requirements.txt
+   13  mysql -u root -p
+   14  mysql -u teluguitfactory -p
+   15  ls
+   16  mkdir app
+   17  cp requirements.txt app/
+   18  cd app/
+   19  ls
+   20  vi __init__.py
+   21  vi models.py
+   22  vi course.py
+   23  vi price_list.py
+   24  vi run.py
+   25  ls -lrt
+   26  python run.py 
+   27  ls -lrt
+   28  mkdir -P static/css
+   29  mkdir -R static/css
+   30  mkdir -p static/css
+   31  cd static/css/
+   32  ls
+   33  vim style.css
+   34  cd ..
+   35  mkdir templates
+   36  cd templates/
+   37  vim base.html
+   38  vi course_page.html
+   39  vim login.html
+   40  vim cart.html
+   41  vim price_list.html
+   42  cd ..
+   43  vim __init__.py
+   44  vim course.py
+   45  vim login.py
+   46  vim cart.py
+   47  vim price_list.py
+   48  cd ..
+   49  ls -lrt
+   50  vim .gitignore
+   51  vim .gitlab-ci.yml
+   52  vim Dockerfile
+   53  vi requirements.txt 
+   54  vi run.py
+   55  python run.py 
+   56  sudo iptables -L
+   57  sudo iptables -A INPUT -p tcp --dport 5000 -j ACCEPT
+   58  python run.py 
+   59  netstat -an | grep -i 5000
+   60  python run.py 
+   61  apt install github
+   62  apt install git
+   63  git
+   64  git oush
+   65  git push
+   66  cd ..
+   67  cd 
+   68  ls -lrt
+   69  mkdir TIF-Project-DevOps
+   70  cp run.py TIF-Project-DevOps/
+   71  cp requirements.txt TIF-Project-DevOps/
+   72  cp Dockerfile TIF-Project-DevOps/
+   73  cp -r app/ TIF-Project-DevOps/
+   74  ls -lrt
+   75  cd TIF-Project-DevOps/
+   76  ls -lrt
+   77  cd app/
+   78  ls
+   79  cd ..
+   80  ls -lrt
+   81  git init
+   82  git add --all
+   83  git status
+   84  git push
+   85  git commit -m "TIF Project"
+   86  git push
+   87  git remote add origin https://github.com/JaiTrieTree/TIF-Project-DevOps
+   88  git push -u origin master
+   89  git push -u origin main
+   90  git checkout master
+   91  git checkout main
+   92  git branches
+   93  git branche
+   94  git branches
+   95  git branche
+   96  git branch
+   97  git checkout main
+   98  git branch main
+   99  git checkout main
+  100  git merge master
+  101  git push origin main
+  102  git pull
+  103  git branch --set-upstream-to=origin/master main
+  104  git branch --set-upstream-to=origin/main
+  105  ls -lrt
+  106  git push
+  107  git branch
+  108  git push
+  109  git pull
+  110  git config pull.rebase true
+  111  git pull
+  112  ls -lrt
+  113  git status
+  114  git push
+  115  git branch
+  116  git push
+  117  hidtory
+  118  history
